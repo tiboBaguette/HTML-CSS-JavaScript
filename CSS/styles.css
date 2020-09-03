@@ -1,0 +1,32 @@
+* {
+    background-color: #686868;
+}
+
+.container {
+    display: flex;
+}
+
+.top {
+    border: 0.15rem dashed black;
+    padding: 12px;
+}
+
+.left-side {
+    border: 0.15rem dashed black;
+    padding: 12px;
+}
+
+.center {
+    border: 0.15rem dashed black;
+    padding: 12px;
+}
+
+.right-side {
+    border: 0.15rem dashed black;
+    padding: 12px;
+}
+
+.bottom {
+    border: 0.15rem dashed black;
+    padding: 12px;
+}

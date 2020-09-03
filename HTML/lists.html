@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Tibo">
+        <title>Hello world!</title>
+    </head>
+
+    <body>
+        <h1>Unordered List</h1>
+        <ul style="list-style-type:square;">
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list4</li>
+        </ul>
+
+        <h1>Ordered List</h1>
+        <ol type="A">
+            <li>list1</li>
+                <ul>
+                    <li>list1</li>
+                    <li>list2</li>
+                </ul>
+            <li>list2</li>
+            <li>list3</li>
+                <ol>
+                    <li>list2</li>
+                        <ul>
+                            <li>list1</li>
+                            <li>list2</li>
+                        </ul>
+                    <li>list3</li>
+                    <li>list4</li>
+                </ol>
+            <li>list4</li>
+        </ol>
+
+        <h1>Description List</h1>
+        <dl>
+            <dt>Word</dt>
+            <dd>Description</dd>
+        </dl>
+
+        <input list="browsers">
+
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Google Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+    </body>
+</html>
